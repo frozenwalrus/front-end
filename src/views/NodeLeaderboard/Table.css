@@ -1,0 +1,46 @@
+#responsive-table {
+    width: 100%; 
+    display: table; 
+}
+
+#tablecaption {
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#tableheader {
+    display: table-header-group;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 25px;
+}
+#resp-table-body{
+    display: table-row-group;
+}
+.resp-table-row{
+    display: table-row;
+    }
+
+.table-header-cell{
+    display: table-cell;
+    padding: 2px;
+    text-align: justify;
+    
+    border-bottom: 1px solid black;
+    }
+.table-body-cell{
+display: table-cell;
+}  
+.table {
+    font-family: sans-serif; 
+    font-size: 1.2rem; 
+    text-align: center; 
+    overflow-wrap: normal; 
+    color: black; 
+    border: 2px; 
+    border-radius: 10px; 
+    padding: 5px; 
+    width: 90%; 
+
+}
